@@ -1,0 +1,48 @@
+{
+  "name": "@culpritsql/culprit-wasm",
+  "version": "0.5.6",
+  "description": "Portable WebAssembly execution plan parser, comparator, deadlock parser, and exporter for SQL Server, PostgreSQL, MySQL, MariaDB, YugabyteDB, and SQLite.",
+  "license": "MIT",
+  "type": "module",
+  "sideEffects": false,
+  "files": [
+    "pkg"
+  ],
+  "exports": {
+    ".": {
+      "types": "./pkg/index.d.ts",
+      "import": "./pkg/index.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/culpritsql/culprit-wasm.git"
+  },
+  "homepage": "https://culpritsql.com",
+  "bugs": {
+    "url": "https://github.com/culpritsql/culprit-wasm/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "keywords": [
+    "sql",
+    "execution-plan",
+    "query-plan",
+    "explain",
+    "showplan",
+    "sqlplan",
+    "deadlock",
+    "wasm",
+    "webassembly",
+    "postgres",
+    "postgresql",
+    "mssql",
+    "sql-server",
+    "mysql",
+    "mariadb",
+    "yugabytedb",
+    "sqlite"
+  ]
+}
