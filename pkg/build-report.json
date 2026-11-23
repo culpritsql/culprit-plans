@@ -12,7 +12,7 @@
     ],
     "bindgen_cli_version": "0.2.129"
   },
-  "cargo_lock_sha256": "b75908ca6a5a76bf703f834c03baaba077d5216e31725c35dac1a1a5bd2df19f",
+  "cargo_lock_sha256": "041802c7d2c5de88c45ec82233257a1999828d85ee9495592c4c9c62eb9a06f6",
   "models": [
     {
       "name": "ActualSummary",
@@ -41,13 +41,18 @@
     },
     {
       "name": "CollectionTarget",
-      "source_sha256": "6455ac83e7cdf121ab4736b99db8a4cecc2f90c8d02a85357c5562b763e6fc74",
-      "package_sha256": "7cd0d5997416f67361bffa0ac52d0efdbeb9f02bbbeaff01acd809e907e676ab"
+      "source_sha256": "3eb165bc2b0022238c79bf7c1699f455fddd6f776b28b0ee880583ea952cbc5e",
+      "package_sha256": "3658c40df8f47f9fed380dc36a1aae77e89e9d2c9138f09d4a4e750e0f549c58"
     },
     {
       "name": "CompareContext",
       "source_sha256": "4188737bbbe0de2017e46d108eaf99cacac58201c7515123e8a47bf969c7de3d",
       "package_sha256": "2116e99cff20ae494bce38abff9d753d43d4935ffa37cec8f4368c04545a2531"
+    },
+    {
+      "name": "ConfiguredConnectionIdentity",
+      "source_sha256": "9f80714258513488cbe64c2b89d7a208fe039024bff3d356330a952b31a8d83a",
+      "package_sha256": "3a2b6e58f0f7753c1350abd7ad9cf2d1e9653f2e8d0ff5af7de0c9824c1eb53f"
     },
     {
       "name": "DatabaseIdentity",
@@ -573,10 +578,10 @@
       "sha256": "3bb76e45db8e62c5c0e7bc95f0f13e488dbd9649d818ca615fd513ecefb1a738"
     },
     "native/culprit_wasm_bg.wasm": {
-      "bytes": 4696744,
-      "gzip_bytes": 1411077,
-      "brotli_bytes": 1001988,
-      "sha256": "3df1aefe270e07726bf72c2dfef49d27415514c234b0510989bd6f823973fbbd"
+      "bytes": 4792757,
+      "gzip_bytes": 1436890,
+      "brotli_bytes": 1021822,
+      "sha256": "dd37208285029a2c45bbf4dbf9cf5b14f08ec7fe3a9421518b31ae874c5e929f"
     }
   },
   "native_or_database_work": false
