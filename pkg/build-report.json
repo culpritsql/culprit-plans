@@ -580,8 +580,8 @@
     "native/culprit_wasm_bg.wasm": {
       "bytes": 4796405,
       "gzip_bytes": 1437911,
-      "brotli_bytes": 1022335,
-      "sha256": "3801152cfb544627e5fad9fb2144d79cd301df1e3ba2e54784d8e009a18f6367"
+      "brotli_bytes": 1023052,
+      "sha256": "ea04437539f8f7a55509f42c2311d64432feceb22a73dcc518887988633e7de9"
     }
   },
   "native_or_database_work": false
