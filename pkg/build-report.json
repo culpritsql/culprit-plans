@@ -12,7 +12,7 @@
     ],
     "bindgen_cli_version": "0.2.129"
   },
-  "cargo_lock_sha256": "b13161d22fc2692986196c3aa713342276830a970a4d10be0eb68598cddc47ca",
+  "cargo_lock_sha256": "579ac978fabed398aa39905eb02c3e0c9d09b32f8bf98ac1e64f56631e40b31e",
   "models": [
     {
       "name": "ActualSummary",
@@ -578,10 +578,10 @@
       "sha256": "3bb76e45db8e62c5c0e7bc95f0f13e488dbd9649d818ca615fd513ecefb1a738"
     },
     "native/culprit_wasm_bg.wasm": {
-      "bytes": 4794869,
-      "gzip_bytes": 1437444,
-      "brotli_bytes": 1021868,
-      "sha256": "ca16659cf13960eba9648691acfa738710c682824f19e703c1f44a4520461244"
+      "bytes": 4796405,
+      "gzip_bytes": 1437911,
+      "brotli_bytes": 1022335,
+      "sha256": "3801152cfb544627e5fad9fb2144d79cd301df1e3ba2e54784d8e009a18f6367"
     }
   },
   "native_or_database_work": false
