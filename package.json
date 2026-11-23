@@ -1,6 +1,6 @@
 {
   "name": "@culpritsql/plans",
-  "version": "0.5.6",
+  "version": "0.5.7",
   "description": "Portable WebAssembly execution plan parser, comparator, deadlock parser, and exporter for SQL Server, PostgreSQL, MySQL, MariaDB, YugabyteDB, and SQLite.",
   "license": "MIT",
   "type": "module",
