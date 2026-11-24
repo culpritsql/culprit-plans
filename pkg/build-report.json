@@ -578,10 +578,10 @@
       "sha256": "3bb76e45db8e62c5c0e7bc95f0f13e488dbd9649d818ca615fd513ecefb1a738"
     },
     "native/culprit_wasm_bg.wasm": {
-      "bytes": 4796405,
-      "gzip_bytes": 1437911,
-      "brotli_bytes": 1023052,
-      "sha256": "ea04437539f8f7a55509f42c2311d64432feceb22a73dcc518887988633e7de9"
+      "bytes": 4797301,
+      "gzip_bytes": 1438124,
+      "brotli_bytes": 1022783,
+      "sha256": "fbbe48ff499b6e18198e6d0d560543f00795ecb2db6a1d8a9e5a2e00e2ee7fe5"
     }
   },
   "native_or_database_work": false
