@@ -8,9 +8,21 @@ export function exportPlanJson(plan_json: string, title: string, format_json: st
 export function parseDeadlockJson(input: string): string;
 
 /**
+ * Decode exported SQL Server Extended Events XML (`<events>`, `<RingBufferTarget>`, or `<event>`) within bounds.
+ * Binary .xel files are refused on this route.
+ */
+export function parseExtendedEventsXmlJson(input: Uint8Array, limits_json: string): string;
+
+/**
  * The optional supplied engine selects the existing strict native parser; it is not source authority.
  */
 export function parsePlanJson(input: string, engine_json: string): string;
+
+/**
+ * Decode a binary SQL Server Extended Events (.xel) buffer within explicit or default bounds.
+ * XML text is refused on this route so binary session-clock framing stays distinct from XML exports.
+ */
+export function parseXelJson(input: Uint8Array, limits_json: string): string;
 
 export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembly.Module;
 
@@ -19,7 +31,9 @@ export interface InitOutput {
     readonly diffPlansJson: (a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number, i: number, j: number, k: number) => void;
     readonly exportPlanJson: (a: number, b: number, c: number, d: number, e: number, f: number, g: number, h: number, i: number, j: number, k: number) => void;
     readonly parseDeadlockJson: (a: number, b: number, c: number) => void;
+    readonly parseExtendedEventsXmlJson: (a: number, b: number, c: number, d: number, e: number) => void;
     readonly parsePlanJson: (a: number, b: number, c: number, d: number, e: number) => void;
+    readonly parseXelJson: (a: number, b: number, c: number, d: number, e: number) => void;
     readonly __wbindgen_add_to_stack_pointer: (a: number) => number;
     readonly __wbindgen_export: (a: number, b: number) => number;
     readonly __wbindgen_export2: (a: number, b: number, c: number, d: number) => number;

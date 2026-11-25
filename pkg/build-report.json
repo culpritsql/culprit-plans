@@ -12,8 +12,13 @@
     ],
     "bindgen_cli_version": "0.2.129"
   },
-  "cargo_lock_sha256": "579ac978fabed398aa39905eb02c3e0c9d09b32f8bf98ac1e64f56631e40b31e",
+  "cargo_lock_sha256": "f820645c6adbffcdea034e1112adfee622b2e88984faf901e6a40855540998fd",
   "models": [
+    {
+      "name": "ActivityClient",
+      "source_sha256": "10f39fa8fbca174637dfb60ae9a2053803ea8f67399eb783d275875a9eb3d139",
+      "package_sha256": "10f39fa8fbca174637dfb60ae9a2053803ea8f67399eb783d275875a9eb3d139"
+    },
     {
       "name": "ActualSummary",
       "source_sha256": "f2835c5d703e3187b50a066ef0391fe266ce5f79e1f3a95058f41ba687dc890d",
@@ -95,6 +100,11 @@
       "package_sha256": "33b2f5da2597a7c8ac49e014a5c59edc04d8d4c21ff6e8aeb245110e107327c6"
     },
     {
+      "name": "DefinitionPayload",
+      "source_sha256": "0bfa9c1fdcfd3fc29f7a2c54918e30273c2482f6bda3afea4c28718bda4d11fc",
+      "package_sha256": "315f41ffd457f6839a5223354c226c2a8fb909bfe1b6a87218d932ada91be4ac"
+    },
+    {
       "name": "DeliveryProblem",
       "source_sha256": "8483d01853894a44cbf3c395c5d85e354983e1e360421cf5445d9657419849a9",
       "package_sha256": "8483d01853894a44cbf3c395c5d85e354983e1e360421cf5445d9657419849a9"
@@ -150,9 +160,29 @@
       "package_sha256": "fd595b33db897d2cf8d99783af82765f363faa9e8bda81fd8783fe9d9e0144cf"
     },
     {
+      "name": "ExtendedEventsBatch",
+      "source_sha256": "407e340e1ae15ac9284c6e7d92c6a84530d76290e72fabd25de5662a304ce647",
+      "package_sha256": "c52af3bea9ebbd6fe8881f69005e9bfb2f6246bb377862f257611c9c6c47fc9c"
+    },
+    {
+      "name": "ExtendedEventsFormat",
+      "source_sha256": "4d2c0f3c8044661ffaae384ba7fae512286de9915c0b44cc2cbe0ae3d388cbfa",
+      "package_sha256": "4d2c0f3c8044661ffaae384ba7fae512286de9915c0b44cc2cbe0ae3d388cbfa"
+    },
+    {
       "name": "Guess",
       "source_sha256": "583209cb03473ded995c96081209c7a82adb51108949a6b83d654def8eabeb87",
       "package_sha256": "583209cb03473ded995c96081209c7a82adb51108949a6b83d654def8eabeb87"
+    },
+    {
+      "name": "ImportedEventDeadlock",
+      "source_sha256": "25285508b913f1b3369a7adff2115bd6d6da5348e373ed7d98d2ea97bfa9a1a7",
+      "package_sha256": "4b3141c6ad60451cefee1050d7790cdcc2600e1f3c89690b9153a7675aba1679"
+    },
+    {
+      "name": "ImportedEventLocation",
+      "source_sha256": "31bd187e4b7fa52fb75c7a5f2e7a27e03966c30efbf8efe5f74f38d9bf917cc9",
+      "package_sha256": "31bd187e4b7fa52fb75c7a5f2e7a27e03966c30efbf8efe5f74f38d9bf917cc9"
     },
     {
       "name": "InsightArea",
@@ -215,6 +245,16 @@
       "package_sha256": "7b198ef60b7ca6a64bdd7bac89a39348f364a953c041e5381fde67f5e70de6dc"
     },
     {
+      "name": "MssqlExtendedEventKind",
+      "source_sha256": "50f121d1a6b8352bb5864ee1d798d92b6b03797d7a8282c4f65a64c79c82ff39",
+      "package_sha256": "50f121d1a6b8352bb5864ee1d798d92b6b03797d7a8282c4f65a64c79c82ff39"
+    },
+    {
+      "name": "MssqlExtendedEventObservation",
+      "source_sha256": "46eca68f0f93a965176fb2024e53e06a2c0f5d8a745d108c3fd74b09804c0723",
+      "package_sha256": "1c146bf5fe1665c133d52922e4525ecd5a856c221ea4a6424b132a2abb9a4581"
+    },
+    {
       "name": "MssqlIndexParentKind",
       "source_sha256": "74ff97cd4c3e002904541c2536d1e2e1a7ac13ec4afbaf9734ad850ccd70f2f0",
       "package_sha256": "74ff97cd4c3e002904541c2536d1e2e1a7ac13ec4afbaf9734ad850ccd70f2f0"
@@ -228,6 +268,21 @@
       "name": "NativeIdentity",
       "source_sha256": "899a25298c7ab4f6bb23a78bdfe63f46e5d6a494481d22e4d1207b8a654c854b",
       "package_sha256": "899a25298c7ab4f6bb23a78bdfe63f46e5d6a494481d22e4d1207b8a654c854b"
+    },
+    {
+      "name": "NativeLogIssue",
+      "source_sha256": "a452afc6fda04a6f811a0bac19418689f2c717484de765dbd1e9381fb73346d0",
+      "package_sha256": "f661e310ecef619afcd988943ed7870109d389081c01adb8295b5a36cf1dcea5"
+    },
+    {
+      "name": "NativeLogLimits",
+      "source_sha256": "73bbef9d42ea49396a5ffe20169e60f50416faad002579486dbd2df9bed8255e",
+      "package_sha256": "73bbef9d42ea49396a5ffe20169e60f50416faad002579486dbd2df9bed8255e"
+    },
+    {
+      "name": "NativeLogProblem",
+      "source_sha256": "3c87ad3fdbcfd0cfd150daf9dad3d51d66d8da68dda3594fac5e521f74f922ce",
+      "package_sha256": "3c87ad3fdbcfd0cfd150daf9dad3d51d66d8da68dda3594fac5e521f74f922ce"
     },
     {
       "name": "NativePlanIdentity",
@@ -263,6 +318,11 @@
       "name": "OutboxProblem",
       "source_sha256": "419165c1e0c4d1d932a220a3b1e5c5d5a53c1e469026993e5cd05763a34fdbab",
       "package_sha256": "419165c1e0c4d1d932a220a3b1e5c5d5a53c1e469026993e5cd05763a34fdbab"
+    },
+    {
+      "name": "PayloadUnavailable",
+      "source_sha256": "12d08c73b12e58d07784175bd981384f86158d6b2daec84fde50e8ff4d0ce596",
+      "package_sha256": "12d08c73b12e58d07784175bd981384f86158d6b2daec84fde50e8ff4d0ce596"
     },
     {
       "name": "Plan",
@@ -566,22 +626,22 @@
   },
   "artifacts": {
     "index.js": {
-      "bytes": 1774,
-      "gzip_bytes": 808,
-      "brotli_bytes": 642,
-      "sha256": "71e1010bc8581f986bda14ad494cbd75394f38792f3ab47cbf721bbd62e7f63d"
+      "bytes": 2709,
+      "gzip_bytes": 1144,
+      "brotli_bytes": 925,
+      "sha256": "6253f7a982a91fe67dd1186266d4c0ae153f12d17f67e90e98e37e3e25574153"
     },
     "native/culprit_wasm.js": {
-      "bytes": 13044,
-      "gzip_bytes": 2754,
-      "brotli_bytes": 2426,
-      "sha256": "3bb76e45db8e62c5c0e7bc95f0f13e488dbd9649d818ca615fd513ecefb1a738"
+      "bytes": 16073,
+      "gzip_bytes": 3047,
+      "brotli_bytes": 2675,
+      "sha256": "56ae0668a581f01eb3b8d4e2a33db4d83d27f9611268971b890e5d6a87dd4495"
     },
     "native/culprit_wasm_bg.wasm": {
-      "bytes": 4799024,
-      "gzip_bytes": 1439602,
-      "brotli_bytes": 1023183,
-      "sha256": "86cd1d58d2a6c2bc76493d3c48d3d4d362aa89f43fbcae45caa29d67d06a5911"
+      "bytes": 4921358,
+      "gzip_bytes": 1484377,
+      "brotli_bytes": 1052524,
+      "sha256": "10b8e6e4cf789df5b4c5b5f7c1609c79ca8e65dc4964c527b178c482b25b946e"
     }
   },
   "native_or_database_work": false

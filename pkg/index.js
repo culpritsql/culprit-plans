@@ -30,6 +30,26 @@ export function diffPlans(a, nameA, b, nameB, context = { statistics: [], taken_
 export function parseDeadlock(input) {
     return result(native.parseDeadlockJson(input));
 }
+const DEFAULT_EVENT_LIMITS = {
+    input_bytes: 8 * 1024 * 1024,
+    record_bytes: 256 * 1024,
+    field_bytes: 64 * 1024,
+    records: 4096,
+};
+function resolveEventLimits(limits) {
+    if (!limits)
+        return null;
+    return { ...DEFAULT_EVENT_LIMITS, ...limits };
+}
+/** Decode a binary SQL Server Extended Events (.xel) buffer within explicit or default bounds. XML text is refused on this route. */
+export function parseXel(input, limits) {
+    return result(native.parseXelJson(input, JSON.stringify(resolveEventLimits(limits))));
+}
+/** Decode exported SQL Server Extended Events XML (`<events>`, `<RingBufferTarget>`, or `<event>`) within bounds. Binary .xel is refused. */
+export function parseExtendedEventsXml(input, limits) {
+    const bytes = typeof input === "string" ? new TextEncoder().encode(input) : input;
+    return result(native.parseExtendedEventsXmlJson(bytes, JSON.stringify(resolveEventLimits(limits))));
+}
 /** Keep the existing Markdown/HTML/native redaction and file-naming policy. */
 export function exportPlan(plan, title, format, options) {
     const exportedAt = `${new Date().toISOString().slice(0, 16).replace("T", " ")} UTC`;
