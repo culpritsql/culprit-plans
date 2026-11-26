@@ -12,7 +12,7 @@
     ],
     "bindgen_cli_version": "0.2.129"
   },
-  "cargo_lock_sha256": "241a51f21425765cb17b0e0a847c5a48f7ee45058f131622d13a828bc57850d7",
+  "cargo_lock_sha256": "7ce1c6740eb748d5c1fe1b43f7c5652e3cf1bb7dd59d58765207e6ff7a5029a8",
   "models": [
     {
       "name": "ActivityClient",
@@ -638,10 +638,10 @@
       "sha256": "56ae0668a581f01eb3b8d4e2a33db4d83d27f9611268971b890e5d6a87dd4495"
     },
     "native/culprit_wasm_bg.wasm": {
-      "bytes": 4946126,
-      "gzip_bytes": 1491840,
-      "brotli_bytes": 1057105,
-      "sha256": "9269aa736992887088f244de01d1e5e8ddd9fbdf1352ea153d098ffe4074e73a"
+      "bytes": 4946574,
+      "gzip_bytes": 1492043,
+      "brotli_bytes": 1057553,
+      "sha256": "44107215b7e478582f638474831713825f3b579a2ff0b6a2196d04fe9817a260"
     }
   },
   "native_or_database_work": false
