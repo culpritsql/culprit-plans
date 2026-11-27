@@ -1,6 +1,6 @@
 {
   "name": "@culpritsql/plans",
-  "version": "0.6.6",
+  "version": "0.6.7",
   "description": "Portable WebAssembly execution plan parser, comparator, deadlock & Extended Events (.xel) parser, and exporter for SQL Server, PostgreSQL, MySQL, MariaDB, YugabyteDB, and SQLite.",
   "license": "MIT",
   "type": "module",
