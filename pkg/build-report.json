@@ -12,7 +12,7 @@
     ],
     "bindgen_cli_version": "0.2.129"
   },
-  "cargo_lock_sha256": "b8cfcecf5eb9ef4a8072d72dc7f1ef8132baf085a5e5548f1c26d32dc47d77b2",
+  "cargo_lock_sha256": "921fb170d825cf7171e7c669ca880c2314fc0fac132882f8983a59734cd12388",
   "models": [
     {
       "name": "ActivityClient",
@@ -116,8 +116,8 @@
     },
     {
       "name": "Engine",
-      "source_sha256": "9c46ff74ded0233bf4ff11474ff9b9ea3176913d0657fc0de6363fe324883acd",
-      "package_sha256": "9c46ff74ded0233bf4ff11474ff9b9ea3176913d0657fc0de6363fe324883acd"
+      "source_sha256": "7d42df5cb7823c4e31de9ab87312406656c244c0618bb8b54ad0fe1626087276",
+      "package_sha256": "7d42df5cb7823c4e31de9ab87312406656c244c0618bb8b54ad0fe1626087276"
     },
     {
       "name": "Error",
@@ -638,10 +638,10 @@
       "sha256": "56ae0668a581f01eb3b8d4e2a33db4d83d27f9611268971b890e5d6a87dd4495"
     },
     "native/culprit_wasm_bg.wasm": {
-      "bytes": 4951428,
-      "gzip_bytes": 1494196,
-      "brotli_bytes": 1059083,
-      "sha256": "218e5f0a0ef5dac0eaf3046c54dd7026dc767aff04eb637f7c55eb54ea152711"
+      "bytes": 4975490,
+      "gzip_bytes": 1501337,
+      "brotli_bytes": 1063860,
+      "sha256": "bbec10c4bce9fd02fcbd34d5ca2fe347afbdfbf26791ddfb282c2193235ef2b1"
     }
   },
   "native_or_database_work": false
