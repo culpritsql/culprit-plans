@@ -131,8 +131,8 @@
     },
     {
       "name": "ErrorDetail",
-      "source_sha256": "8c862ac23c9e53432eae75d5eaf0a200fd58cd08ceb6bafd8b8e9ceebb5548ae",
-      "package_sha256": "3080a6b37c13b7881cf63c2d124bfaa4266dbea3a58d7b2d8eb9b2dabce19f3b"
+      "source_sha256": "a47d5aa3b181dd399642187e5dfb66ebf24901d07c8a0b6b75e299784492295a",
+      "package_sha256": "42752a7cd585f4b1ea84aa78fce10d381ac00809f511ece251fd7f022a00cc01"
     },
     {
       "name": "ExecutionProtection",
@@ -638,10 +638,10 @@
       "sha256": "56ae0668a581f01eb3b8d4e2a33db4d83d27f9611268971b890e5d6a87dd4495"
     },
     "native/culprit_wasm_bg.wasm": {
-      "bytes": 4976010,
-      "gzip_bytes": 1501517,
-      "brotli_bytes": 1063776,
-      "sha256": "248949fe7a6a4c60f4db0f192add2f353906f7e043b8882ae0d0ef1185976d5f"
+      "bytes": 4985439,
+      "gzip_bytes": 1503826,
+      "brotli_bytes": 1066417,
+      "sha256": "f95ee6c17ba018d9a7dc3f80b13a348253cc92a3724eb50269a27e3bd5011d03"
     }
   },
   "native_or_database_work": false
